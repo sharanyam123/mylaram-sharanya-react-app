@@ -18,7 +18,7 @@ export default function useCartContainer(ref?: CartContainerRefObjectType) {
       },
       {
         root: null,
-        threshold: 0.1,
+        threshold: 1,
       }
     );
 
