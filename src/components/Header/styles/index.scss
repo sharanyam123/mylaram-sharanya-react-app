@@ -1,0 +1,17 @@
+.header {
+  background-color: white !important;
+  padding: 10px;
+
+  // For mobile and tablet
+  @media (max-width: 900px) {
+    gap: 10px;
+  }
+
+  // For desktop and larger
+  @media (min-width: 901px) {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+  }
+}

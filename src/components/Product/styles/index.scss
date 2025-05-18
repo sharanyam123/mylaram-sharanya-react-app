@@ -1,0 +1,23 @@
+.productSection {
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 16px;
+  gap: 16px;
+
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+
+  .imageSection {
+    width: 10% !important;
+    overflow: hidden;
+    img {
+      aspect-ratio: 1 / 1;
+      cursor: pointer;
+    }
+  }
+  .singleImage {
+    width: 40% !important;
+    aspect-ratio: 1/1;
+  }
+}
