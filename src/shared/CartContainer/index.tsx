@@ -17,6 +17,11 @@ function CartContainer(_: any, ref?: CartContainerRefType) {
       <TextField
         className="quantity"
         type="number"
+        slotProps={{
+          htmlInput: {
+            min: 0,
+          },
+        }}
         value={minimum_order_quantity}
         onChange={handleQuantity}
       />

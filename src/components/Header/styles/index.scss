@@ -1,10 +1,10 @@
 .header {
   background-color: white !important;
-  padding: 10px;
+  padding: 16px;
 
   // For mobile and tablet
   @media (max-width: 900px) {
-    gap: 10px;
+    gap: 20px;
   }
 
   // For desktop and larger

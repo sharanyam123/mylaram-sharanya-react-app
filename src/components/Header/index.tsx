@@ -21,7 +21,7 @@ export default function () {
           }}
         >
           <Description title={title} showCartInHeader={showCartInHeader} />
-          <Stack direction={'row'} pr={2}>
+          <Stack direction={'row'}>
             <IconsSection isFavoriteProduct={isFavoriteProduct} />
             <Divider orientation="vertical" flexItem sx={{ mx: 2 }} />
             <CartIconSection cartCount={cartCount} />

@@ -7,9 +7,7 @@ export default function Description(props: DescriptionType) {
 
   return (
     <>
-      <Typography p={1} color="red">
-        {title}
-      </Typography>
+      <Typography color="red">{title}</Typography>
       {showCartInHeader && <ForwardedContainer />}
     </>
   );
