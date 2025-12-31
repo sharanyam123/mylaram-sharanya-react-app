@@ -18,7 +18,7 @@ const productSlice = createSlice({
       state.productData.article.minimum_order_quantity = action?.payload;
     },
     updateCart: (state, action: PayloadAction<number>) => {
-      state.productData.cart.items += action?.payload;
+      state.productData.cart.items = action?.payload;
     },
     updatePageScroll: (state, action: PayloadAction<boolean>) => {
       state.trigger = action?.payload;
