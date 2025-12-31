@@ -17,14 +17,32 @@ const productSlice = createSlice({
     updateQuantity: (state, action: PayloadAction<number>) => {
       state.productData.article.minimum_order_quantity = action?.payload;
     },
-    updateCart: state => {
-      state.productData.cart.items += 1;
+    updateCart: (state, action: PayloadAction<number>) => {
+      state.productData.cart.items += action?.payload;
     },
     updatePageScroll: (state, action: PayloadAction<boolean>) => {
       state.trigger = action?.payload;
     },
     updateCartContainerPlacement: (state, action: PayloadAction<boolean>) => {
       state.showCartInHeader = action?.payload;
+    },
+    updateFavorites: (state, action: PayloadAction<{ id: number }>) => {
+      if (
+        state.productData.user.favorite_articles?.includes(action?.payload?.id)
+      ) {
+        state.productData.user.favorite_articles =
+          state.productData.user.favorite_articles?.filter(
+            ele => ele !== action?.payload?.id
+          );
+      } else {
+        state.productData.user.favorite_articles = [
+          ...state.productData.user.favorite_articles,
+          action?.payload?.id,
+        ];
+      }
+    },
+    resetCart: state => {
+      state.productData.cart.items = 0;
     },
   },
 });
@@ -35,6 +53,8 @@ export const {
   updateCart,
   updatePageScroll,
   updateCartContainerPlacement,
+  updateFavorites,
+  resetCart,
 } = productSlice.actions;
 
 export default productSlice.reducer;

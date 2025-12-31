@@ -1,9 +1,9 @@
 {
   "article": {
     "id": 128492,
-    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "description_short": "Vestibulum a velit mauris. Vestibulum sollicitudin tempor ipsum in dictum. Donec quis suscipit augue, quis tempus turpis.",
-    "description_long": "Maecenas pretium mi a ex lacinia volutpat. Cras gravida odio ut libero blandit ornare. Pellentesque et tempus lacus, eu viverra orci. Quisque suscipit felis vitae ligula finibus efficitur. Sed in fringilla nulla. Sed dictum tortor et lectus porta, sit amet rhoncus sem consectetur. Duis eleifend lectus id scelerisque auctor. Morbi posuere arcu lacus, ac euismod nulla placerat nec. Proin et accumsan nisl. Sed imperdiet lacus ac commodo pharetra.\n\nSuspendisse et dui ornare, laoreet mauris vel, ullamcorper nunc. Suspendisse a libero id justo condimentum fermentum non id ex. Phasellus aliquam magna ac eleifend molestie. Aliquam tincidunt elit non libero posuere, a feugiat orci gravida. Donec tempor urna in nisl aliquet convallis.\n\nDuis nec vestibulum odio. Maecenas lobortis sit amet nunc ac porttitor. Maecenas ultrices urna sed mattis faucibus. Phasellus dui turpis, mattis eget lectus a, volutpat sagittis diam. Vestibulum dictum efficitur magna nec hendrerit. Proin a cursus sapien, rhoncus viverra lacus. Nullam commodo dapibus turpis, at sagittis tellus tincidunt eu. Fusce viverra porta leo. Vivamus in ipsum nec elit tincidunt tristique.",
+    "title": "Fossil Blue Dial Chronograph Leather Strap Watch",
+    "description_long": "The Fossil Blue Dial Chronograph Watch combines classic design with modern craftsmanship. Featuring a durable stainless-steel case, a richly textured brown leather strap, and a striking blue dial with Roman numeral hour markers, this watch delivers both elegance and everyday durability. The chronograph sub-dials provide precise timekeeping for your daily activities, while the high-quality quartz movement ensures long-lasting accuracy. Built for comfort and style, this watch is suitable for both casual and formal wear.",
+    "description_short": "Designed with premium materials and detailed finishing, it reflects Fossil’s commitment to timeless style and functionality.",
     "supplier_name": "Conntech GmbH",
     "supplier_link": "http://google.com",
     "stars": 3.2,
@@ -13,39 +13,40 @@
       "50": 2109.9,
       "100": 1999.9
     },
-    "currency": "EUR",
+    "currency": "INR",
     "transport_costs": 34.9,
     "vat_percent": 10,
     "images": [
-      "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
-      "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c"
+      "https://m.media-amazon.com/images/I/818lBoWqXtL._AC_SX466_.jpg",
+      "https://m.media-amazon.com/images/I/61V+is+XpkL._AC_SX466_.jpg",
+      "https://m.media-amazon.com/images/I/91aRBECgO-L._AC_SX466_.jpg"
     ],
     "minimum_order_quantity": 1,
     "delivery_time": 12,
     "unit": "PCE",
     "features": {
-      "Feature 1": "Green",
-      "Feature 2": "20cm",
-      "Feature 3": "XL"
+      "Feature 1": "Blue Dial",
+      "Feature 2": "44mm Case Size",
+      "Feature 3": "Genuine Leather Strap"
     },
     "attachments": [
       {
-        "file_label": "Data Sheet 101",
+        "file_label": "User Manual – Fossil 202",
         "file_size": 2049,
         "file_name": "data_sheet.tgz",
         "file_link": "https://google.com/data_sheet.tgz"
       },
       {
-        "file_label": "Data Sheet 201",
+        "file_label": "Warranty Information – 2 Years",
         "file_size": 29341,
         "file_name": "data_sheet_2.tgz",
         "file_link": "https://google.com/data_sheet_2.tgz"
       }
     ],
-    "keywords": ["Lorem Ipsum", "Dolor", "Sit"]
+    "keywords": ["Fossil", "Chronograph", "Leather", "Blue Dial"]
   },
   "cart": {
-    "items": 5,
+    "items": 0,
     "total_costs": 10829.9
   },
   "user": {

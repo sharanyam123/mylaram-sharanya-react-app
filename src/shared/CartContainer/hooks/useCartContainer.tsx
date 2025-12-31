@@ -44,7 +44,7 @@ export default function useCartContainer(ref?: CartContainerRefObjectType) {
   };
 
   const handleCart = () => {
-    dispatch(updateCart());
+    dispatch(updateCart(minimum_order_quantity));
   };
 
   return {

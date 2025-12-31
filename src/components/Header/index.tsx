@@ -5,7 +5,7 @@ import useHeader from './hooks/useHeader';
 import './styles/index.scss';
 
 export default function () {
-  const { cartCount, title, isFavoriteProduct, trigger, showCartInHeader } =
+  const { cartCount, title, favorites, id, trigger, showCartInHeader } =
     useHeader();
 
   return (
@@ -22,7 +22,7 @@ export default function () {
         >
           <Description title={title} showCartInHeader={showCartInHeader} />
           <Stack direction={'row'}>
-            <IconsSection isFavoriteProduct={isFavoriteProduct} />
+            <IconsSection favorites={favorites} id={id} />
             <Divider orientation="vertical" flexItem sx={{ mx: 2 }} />
             <CartIconSection cartCount={cartCount} />
           </Stack>

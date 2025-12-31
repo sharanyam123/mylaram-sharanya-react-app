@@ -9,5 +9,7 @@ export type CartIconType = {
 };
 
 export type IconsSectionType = {
-  isFavoriteProduct: boolean;
+  // isFavoriteProduct: boolean;
+  favorites: number[];
+  id: number;
 };
